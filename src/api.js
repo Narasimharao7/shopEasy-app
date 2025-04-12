@@ -2,6 +2,10 @@ import axios from "axios";
 
 const API_URL = "https://fakestoreapi.com";
 
+// Use this credentials for login
+// const username = "mor_2314";
+// const password = "83r5^_";
+
 export const loginUser = async (username, password) => {
   try {
     const response = await axios.post(`${API_URL}/auth/login`, {
