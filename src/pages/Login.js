@@ -4,8 +4,8 @@ import { loginUser } from "../api";
 import "../styles/login.css";
 
 function Login({ onLogin }) {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+  const [username, setUsername] = useState("mor_2314");
+  const [password, setPassword] = useState("83r5^_");
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
